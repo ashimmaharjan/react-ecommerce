@@ -10,26 +10,25 @@ import Slider from "react-slick";
 const HeroSection = () => {
 
     const settings = {
-        dots: false,
+        dots: true,
         fade: true,
         infinite: true,
         autoplay: true,
         speed: 500,
-        arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         swipeToSlide: true,
     };
 
     const sliderWrapper = {
-        height: "550px",
+        height: "500px",
         overflow: "hidden",
     }
 
     return (
         <div className="grid grid-cols-12 gap-2 p-7">
             {/* Side navbar */}
-            <div className="col-span-2 h-96  px-5 font-semibold text-gray-600">
+            <div className="lg:col-span-2 h-96  px-5 font-semibold text-gray-600">
                 <div>
                     <img src={DummyLogo} alt="" />
                 </div>
@@ -53,10 +52,10 @@ const HeroSection = () => {
                     <MdKeyboardArrowRight className="text-gray-500"></MdKeyboardArrowRight>
                 </div>
             </div>
-            <div className="col-span-10 bg-red-500" style={sliderWrapper}>
+            <div className="col-span-12 lg:col-span-10 bg-red-500" style={sliderWrapper}>
                 <Slider {...settings}>
                     <div className="relative">
-                        {/* <img src={Shoes1} className="w-full h-auto object-contain" alt="" /> */}
+                        <img src={Shoes1} className="w-full h-auto object-cover" alt="" />
                         <div className="">
                             <button className="px-5 py-2 border-4 border-black hover:bg-black hover:text-white">
                                 Get Yours
@@ -64,10 +63,10 @@ const HeroSection = () => {
                         </div>
                     </div>
                     <div className="">
-                        <img src={Shoes2} className="w-full h-auto object-contain" alt="" />
+                        <img src={Shoes2} className="w-full h-auto object-cover" alt="" />
                     </div>
                     <div className="">
-                        <img src={Shoes3} className="w-full h-auto object-contain" alt="" />
+                        <img src={Shoes3} className="w-full h-auto object-cover" alt="" />
                     </div>
                 </Slider>
             </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
         <header>
             <div className="w-full h-12 text-sm bg-gray-800 text-white flex justify-between px-10 items-center">
                 <div>
-                    <h1>Get 10% OFF at the eTTCom's GIFTs Selection - Shop Now!</h1>
+                    <h1>Get 10% OFF at the eTTCom's GIFTs Selection - <b>Shop Now!</b></h1>
                 </div>
 
                 <div className="flex space-x-12">

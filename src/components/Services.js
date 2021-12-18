@@ -3,7 +3,7 @@ import { Ri24HoursLine, RiMoneyDollarCircleLine, RiSecurePaymentLine } from "rea
 
 const Services = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-1">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-1 bg-gray-100">
             <div className="col-span-1 flex justify-center items-center space-x-3 py-7 border-r border-white">
                 <div>
                     <FaShippingFast className="w-7 h-7"></FaShippingFast>

@@ -6,6 +6,7 @@ import Shoes2 from "../assets/shoes-2.jpg"
 import Shoes3 from "../assets/shoes-3.jpg"
 
 import Slider from "react-slick";
+import { RiAccountPinCircleLine, RiHeart2Line, RiSearchEyeLine, RiShoppingBag3Line } from "react-icons/ri";
 
 const HeroSection = () => {
 
@@ -52,7 +53,23 @@ const HeroSection = () => {
                     <MdKeyboardArrowRight className="text-gray-500"></MdKeyboardArrowRight>
                 </div>
             </div>
-            <div className="col-span-12 lg:col-span-10 bg-red-500" style={sliderWrapper}>
+            <div className="relative col-span-12 lg:col-span-10" style={sliderWrapper}>
+
+                <div className="absolute top-3 right-3 w-auto h-auto flex items-center space-x-5 z-10">
+                    <button>
+                        <RiSearchEyeLine className="text-gray-800 w-7 h-7"></RiSearchEyeLine>
+                    </button>
+                    <button>
+                        <RiAccountPinCircleLine className="text-gray-800 w-7 h-7"></RiAccountPinCircleLine>
+                    </button>
+                    <button>
+                        <RiHeart2Line className="text-gray-800 w-7 h-7"></RiHeart2Line>
+                    </button>
+                    <button>
+                        <RiShoppingBag3Line className="text-gray-800 w-7 h-7"></RiShoppingBag3Line>
+                    </button>
+                </div>
+
                 <Slider {...settings}>
                     <div className="relative">
                         <img src={Shoes1} className="w-full h-auto object-cover" alt="" />

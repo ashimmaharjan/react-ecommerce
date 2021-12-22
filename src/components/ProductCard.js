@@ -7,7 +7,7 @@ const ProductCard = ({ category, productName, productImage, originalPrice, disco
             <div className="absolute text-xs w-auto py-1 px-3 flex items-center justify-center left-3 top-3 bg-red-400 font-sans text-white rounded-3xl">
                 <h1>{discountPercent}</h1>
             </div>
-            <img src={productImage} className="w-full h-64 object-cover" alt="" />
+            <img src={productImage} className="w-full h-64 object-cover rounded-xl shadow" alt="" />
             <div className="flex justify-between mt-3">
                 <div>
                     <h1 className="text-gray-500 text-xs">{category}</h1>

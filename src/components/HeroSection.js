@@ -54,7 +54,6 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="relative col-span-12 lg:col-span-10" style={sliderWrapper}>
-
                 <div className="absolute top-3 right-3 w-auto h-auto flex items-center space-x-5 z-10">
                     <button>
                         <RiSearchEyeLine className="text-gray-800 w-7 h-7"></RiSearchEyeLine>

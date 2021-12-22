@@ -5,6 +5,7 @@ import Services from "./components/Services"
 import FeaturedProducts from "./components/FeaturedProducts";
 import SummerCollection from "./components/SummerCollection";
 import Categories from "./components/Categories";
+import BestSeller from "./components/BestSeller";
 import "./index.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,6 +19,7 @@ function App() {
       <FeaturedProducts></FeaturedProducts>
       <SummerCollection></SummerCollection>
       <Categories></Categories>
+      <BestSeller></BestSeller>
     </div>
   );
 }

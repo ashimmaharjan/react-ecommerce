@@ -27,7 +27,7 @@ const HeroSection = () => {
     }
 
     return (
-        <div className="grid grid-cols-12 gap-2 p-7">
+        <div className="grid grid-cols-12 gap-2 p-7" style={{ background: '#F3F4F6' }}>
             {/* Side navbar */}
             <div className="lg:col-span-2 h-96  px-5 font-semibold text-gray-600">
                 <div>

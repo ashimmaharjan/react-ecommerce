@@ -55,9 +55,6 @@ const FeaturedProducts = () => {
                 >
                 </ProductCard>
             </div>
-
-            <hr className="mt-5" />
-
         </div>
     );
 }

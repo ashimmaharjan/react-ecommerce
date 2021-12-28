@@ -72,7 +72,7 @@ const BestSeller = () => {
     };
 
     return (
-        <div className="pt-10 bg-white pb-10">
+        <div className="pt-10 bg-white">
             <div className="text-center">
                 <h1 className="text-3xl font-bold"> Best Seller<b className="font-light">Products</b> </h1>
                 <p className="text-gray-500 font-sans">Only the best seller products added recently in our catalog</p>
@@ -148,7 +148,6 @@ const BestSeller = () => {
                     </div>
                 </Slider>
             </div>
-
         </div>
     );
 }
